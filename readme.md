@@ -1,10 +1,11 @@
 # instructions
 
 ## Basic run
+```
+docker-compose up -d  
+```
 
-```
-docker run -d -p 3000:3000 -v todo-db:/etc/todos  getting-started
-```
+Initially I was using `docker run -d -p 3000:3000 -v todo-db:/etc/todos  getting-started`
 
 ## Build
 
