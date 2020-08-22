@@ -1,9 +1,9 @@
 # instructions
 
 ## Basic run
-```
-docker-compose up -d  
-```
+Go for `docker-compose up -d`
+
+    By default, named volumes in your compose file are NOT removed when running `docker-compose down`. 
 
 Initially I was using `docker run -d -p 3000:3000 -v todo-db:/etc/todos  getting-started`
 
